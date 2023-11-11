@@ -1,5 +1,5 @@
 export class NumberParams {
-  public values: number[];
+  public readonly values: number[];
   constructor(numbers: number[]) {
     numbers.forEach((num, index) => {
       if (typeof num !== "number")
